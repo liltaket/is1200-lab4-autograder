@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 240" role="img" aria-labelledby="title desc">
+  <title id="title">Lab 4 Verify banner</title>
+  <desc id="desc">A circuit trace mark and a restrained processor-board motif for the local IS1200 and IS1500 Lab 4 autograder.</desc>
+  <rect width="1280" height="240" rx="14" fill="#101a22"/>
+  <path d="M14 15h1252" stroke="#354851" stroke-width="1"/>
+  <path d="M14 225h1252" stroke="#354851" stroke-width="1"/>
+  <rect x="48" y="57" width="126" height="126" rx="16" fill="#1b2932" stroke="#354851" stroke-width="2"/>
+  <g transform="translate(79 88) scale(1.02)">
+    <path d="M12 14h21v13h18v23H30V37H12z" fill="#8ac7e8"/>
+    <path d="M21 23h4v6h16v12h-3v-9H21z" fill="#1b2932"/>
+    <circle cx="47" cy="17" r="3" fill="#edf3f4"/>
+  </g>
+  <text x="218" y="105" fill="#8ac7e8" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" letter-spacing="2">LOCAL VERIFICATION</text>
+  <text x="218" y="143" fill="#edf3f4" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="600">IS1200 / IS1500 · Lab 4</text>
+  <text x="218" y="174" fill="#b0c0c6" font-family="Segoe UI, Arial, sans-serif" font-size="15">Processor circuit and factorial assembly</text>
+  <g fill="none" stroke="#426477" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <path d="M760 71h91v49h85v-34h93"/>
+    <path d="M776 172h105v-31h107v39h83"/>
+    <path d="M1029 86v42h91v-24h90"/>
+  </g>
+  <g fill="#8ac7e8">
+    <circle cx="760" cy="71" r="5"/><circle cx="1029" cy="86" r="5"/><circle cx="776" cy="172" r="5"/>
+    <circle cx="1059" cy="180" r="5"/><circle cx="1210" cy="104" r="5"/>
+  </g>
+  <rect x="937" y="103" width="56" height="56" rx="8" fill="#1b2932" stroke="#627983" stroke-width="2"/>
+  <path d="M951 117h28v28h-28zM946 111v-9m14 9v-9m14 9v-9m-28 48v9m14-9v9m14-9v9m-43-38h-9m9 14h-9m9 14h-9m43-28h9m-9 14h9m-9 14h9" fill="none" stroke="#8ac7e8" stroke-linecap="round" stroke-width="2"/>
+</svg>

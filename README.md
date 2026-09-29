@@ -1,8 +1,15 @@
-<img src="./logo.svg" width="44" height="44" alt="Lab 4 Verify logo">
-
 # Lab 4 Verify
 
 Local autograder for IS1200 / IS1500 Lab 4.
+
+<p align="center">
+  <img src="./assets/lab4-verify-banner.svg" alt="Lab 4 Verify — local processor verification for IS1200 / IS1500" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/liltaket/is1200-lab4-autograder/actions/workflows/tests.yml"><img alt="GitHub Actions tests" src="https://github.com/liltaket/is1200-lab4-autograder/actions/workflows/tests.yml/badge.svg?branch=main"></a>
+  <img alt="Python 3.10 or newer" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white">
+</p>
 
 Lab 4 Verify checks the Lab 4 processor circuit and factorial assembly on your computer. The command line engine in `grader.py` is the source of truth; `app.py` presents the same results in a local browser. Both report `PASS`, `FAIL`, and `ERROR` separately so an unavailable tool is not mistaken for a passing submission.
 
