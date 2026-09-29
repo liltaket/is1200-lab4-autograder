@@ -2,6 +2,10 @@
 
 <!-- impeccable:product-schema 1 -->
 
+## Name
+
+Lab 4 Verify is the public-facing name. The repository remains `is1200-lab4-autograder`; the interface and documentation use “Lab 4 Verify” consistently.
+
 ## Platform
 
 web
@@ -40,3 +44,9 @@ The current selected source files are in the public course repository `liltaket/
 - Make failures and unavailable checks easy to distinguish.
 - Keep setup understandable to both students and coding agents.
 - Keep instrumentation and temporary artifacts out of submitted files.
+
+## Identity and Voice
+
+- The original `logo.svg` is a compact circuit trace mark. Its stepped route and terminal point suggest the processor checks without implying an observed waveform.
+- The interface uses dark ink surfaces (`#101a22`, `#1b2932`), pale text (`#edf3f4`), and technical blue (`#8ac7e8`). Green, red, and amber distinguish PASS, FAIL, and ERROR/UNVERIFIED alongside text labels.
+- Copy is concise, factual, and action-oriented. State exactly what ran, what matched, and what could not be verified. Do not claim certification, endorsement, or coverage beyond the executed checks.

@@ -368,7 +368,7 @@ class Grader:
         result = RunResult(state="RUNNING", started_at=time.time(), paths=self._paths(), verbose=self.verbose, keep_temp=self.keep_temp)
         result.assignments = {str(a): CheckResult(name=f"Assignment {a}") for a in selected}
         self.current = result
-        self._emit(result, "Starting Lab 4 grader")
+        self._emit(result, "Starting Lab 4 Verify")
         self._emit(result, "processor_riscv.circ: " + result.paths["processor_riscv.circ"])
         self._emit(result, "factorial.S: " + result.paths["factorial.S"])
         handlers = {1: self._assignment1, 2: self._assignment2, 3: self._assignment3, 4: self._assignment4, 5: self._assignment5}
@@ -684,7 +684,7 @@ class Grader:
 
 
 def format_summary(result: RunResult) -> str:
-    lines = [f"Lab 4 grader: {result.state} ({result.elapsed:.2f}s)"]
+    lines = [f"Lab 4 Verify: {result.state} ({result.elapsed:.2f}s)"]
     for label, path in result.paths.items():
         lines.append(f"  {label}: {path}")
     for number, check in result.assignments.items():
@@ -700,7 +700,7 @@ def format_summary(result: RunResult) -> str:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Local autograder for KTH IS1200/IS1500 Lab 4")
+    parser = argparse.ArgumentParser(description="Lab 4 Verify — local autograder for KTH IS1200/IS1500 Lab 4")
     parser.add_argument("--repo", type=Path, help="repository root (defaults to the containing Git checkout)")
     parser.add_argument("--circ", type=Path, help="processor_riscv.circ path")
     parser.add_argument("--asm", type=Path, help="factorial.S/factorial.s path")

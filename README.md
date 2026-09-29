@@ -1,6 +1,10 @@
-# IS1200 / IS1500 Lab 4 local autograder
+<img src="./logo.svg" width="44" height="44" alt="Lab 4 Verify logo">
 
-A local verification tool for the Lab 4 processor circuit and factorial assembly. The command line engine in `grader.py` is the source of truth; `app.py` presents the same results in a browser on your computer. Both report `PASS`, `FAIL`, and `ERROR` separately so an unavailable tool is not mistaken for a passing submission.
+# Lab 4 Verify
+
+Local autograder for IS1200 / IS1500 Lab 4.
+
+Lab 4 Verify checks the Lab 4 processor circuit and factorial assembly on your computer. The command line engine in `grader.py` is the source of truth; `app.py` presents the same results in a local browser. Both report `PASS`, `FAIL`, and `ERROR` separately so an unavailable tool is not mistaken for a passing submission.
 
 The grader reads the selected student files. It creates temporary vector copies, circuit harnesses, and assembly variants for its checks; it does not edit the submitted circuit or assembly source.
 
@@ -92,7 +96,7 @@ Assignments 1–3 run the supplied circuit vectors. Assignment 4 runs a referenc
 Give the following prompt to an agent with access to your Windows computer. It should inspect your checkout and report the paths it used before making changes.
 
 ```text
-Set up and start the local IS1200/IS1500 Lab 4 autograder on my Windows 11 computer.
+Set up and start Lab 4 Verify, the local IS1200/IS1500 Lab 4 autograder, on my Windows 11 computer.
 
 1. Locate my existing IS1200-Lab4 repository. If there are several candidates, show me their paths and identify the one containing my current processor_riscv.circ and factorial.s files. Do not overwrite or edit either student source file or any Lab 4 test vectors.
 2. In the selected Lab 4 repository, install or update https://github.com/liltaket/is1200-lab4-autograder.git at tools/lab4-autograder. Preserve unrelated local files and changes. If that destination has local changes or is not the expected checkout, inspect and explain before replacing anything.
